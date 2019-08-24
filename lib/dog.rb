@@ -20,6 +20,6 @@ class Dog
 
 end
 
-def print_all(Dog.new)
+def print_all(Dog)
   puts Dog.each
 end
