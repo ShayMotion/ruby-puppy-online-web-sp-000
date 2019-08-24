@@ -21,5 +21,7 @@ class Dog
 end
 
 def print_all(Dog)
+  initialize.all
   puts Dog.each
 end
+
