@@ -1,5 +1,4 @@
 class Dog
-
   attr_accessor :name
 
   @@all = []
@@ -19,4 +18,8 @@ class Dog
     @@all.clear
   end
 
+end
+
+def print_all
+  puts Dog.each
 end
